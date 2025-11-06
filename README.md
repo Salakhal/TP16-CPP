@@ -154,9 +154,6 @@ Mettre en œuvre le **pattern Observateur** dans une application météo, où :
 
 ---
 
-
----
-
 ##  Classes et responsabilités
 
 | Classe / Interface | Rôle |
