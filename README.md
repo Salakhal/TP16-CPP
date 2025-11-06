@@ -16,12 +16,12 @@ Chaque patron permet de résoudre un problème de conception spécifique tout en
  ```
 TP16/
 │
-├── TP16_Singleton/
+├── Exercice1/
 │   ├── main.cpp
 │   ├── Configuration.h
 │   └── Configuration.cpp
 │
-├── TP16_Factory/
+├── Exercice2_/
 │   ├── main.cpp
 │   ├── Forme.h
 │   ├── Cercle.h
@@ -30,7 +30,7 @@ TP16/
 │   ├── FabriqueForme.h
 │   └── FabriqueForme.cpp
 │
-├── Exercice3_Observer/
+├── Exercice3/
 │   ├── main.cpp
 │   ├── StationMeteo.h
 │   ├── StationMeteo.cpp
@@ -92,9 +92,14 @@ Chemin : config.txt
 Utilisateur : root
 Mot de passe : 1234
 
-Les deux pointeurs désignent la même instance 
+Les deux pointeurs designent la meme instance 
 
 ```
+##  Exemple d’exécution (image)
+ 
+Voici un exemple de l'exécution du programme (screenshot) :
+
+<img width="686" height="320" alt="image" src="https://github.com/user-attachments/assets/84609194-52ec-4188-964a-f90c08e95d1d" />
 
 
 # Exercice 2 : Utilisation du patron **Fabrique (Factory Method)**
@@ -121,6 +126,20 @@ Ce patron permet d’isoler la logique de création d’objets dans une classe d
 - Contient une méthode statique `creerForme(string type)` qui crée dynamiquement l’objet demandé.
 
 ---
+
+## Sortie attendue
+
+```
+Type inconnu : etoile
+Je suis un cercle
+Je suis un carré
+Je suis un triangle
+```
+##  Exemple d’exécution (image)
+ 
+Voici un exemple de l'exécution du programme (screenshot) :
+
+<img width="486" height="134" alt="image" src="https://github.com/user-attachments/assets/55e8c207-ec97-417a-989a-dba401312aaf" />
 
 
 ## Exercice 3 : Application du patron **Observateur (Observer)**
@@ -162,6 +181,11 @@ Mettre en œuvre le **pattern Observateur** dans une application météo, où :
 [Affichage Pression] : 1008.5 hPa
 
 ```
+##  Exemple d’exécution (image)
+ 
+Voici un exemple de l'exécution du programme (screenshot) :
+
+<img width="517" height="312" alt="image" src="https://github.com/user-attachments/assets/19808ef7-c7ef-4799-a3d1-dd6d00b6d8f0" />
 
 # Exercice 4 : Mise en œuvre du patron Stratégie (Strategy)
 
@@ -172,10 +196,15 @@ Trier dynamiquement un vecteur de chaînes avec plusieurs **stratégies** : croi
 ## Sortie attendue
 ```
 Tri croissant : abricot banane figue kiwi pomme 
-Tri décroissant : pomme kiwi figue banane abricot 
-Tri par longueur : kiwi figue pomme banane abricot 
+Tri décroissant : pomme kiwi figue banane abricot        
+Tri par longueur : kiwi pomme figue banane abricot 
 
 ```
+##  Exemple d’exécution (image)
+ 
+Voici un exemple de l'exécution du programme (screenshot) :
+
+<img width="734" height="107" alt="image" src="https://github.com/user-attachments/assets/cddb5fbc-5a64-44bc-8d7b-b46208af0b8d" />
 
 
 
