@@ -14,12 +14,41 @@ Chaque patron permet de résoudre un problème de conception spécifique tout en
 ---
  ## Structure proposée pour TP16
  ```
+TP16/
+│
+├── TP16_Singleton/
+│   ├── main.cpp
+│   ├── Configuration.h
+│   └── Configuration.cpp
+│
+├── TP16_Factory/
+│   ├── main.cpp
+│   ├── Forme.h
+│   ├── Cercle.h
+│   ├── Carre.h
+│   ├── Triangle.h
+│   ├── FabriqueForme.h
+│   └── FabriqueForme.cpp
+│
+├── Exercice3_Observer/
+│   ├── main.cpp
+│   ├── StationMeteo.h
+│   ├── StationMeteo.cpp
+│   ├── Observateur.h
+│   └── Affichages.h
+│
+└── Exercice4_Strategy/
+    ├── main.cpp
+    ├── StrategieTri.h
+    ├── StrategieCroissant.h
+    ├── StrategieDecroissant.h
+    ├── StrategieParLongueur.h
+    └── GestionnaireTri.h
 
 
 ```
 
-
-## Exercice 1 : Implémentation du patron **Singleton**
+ ## Exercice 1 : Implémentation du patron **Singleton**
 
 ###  Objectif
 L’objectif de cet exercice est d’implémenter le **patron de conception Singleton** en C++ pour gérer une **configuration globale** dans une application, afin de garantir qu’une seule instance de cette configuration existe pendant toute l’exécution du programme.
